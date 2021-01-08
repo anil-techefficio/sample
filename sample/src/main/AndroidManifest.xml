@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ptrstovka.calendarview2.sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.OldCalendarViewActivity"
+            android:label="@string/title_activity_old_calendar"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.BasicActivity"
+            android:label="@string/title_activity_basic"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.BasicActivityDecorated"
+            android:label="@string/title_activity_decorators"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.SwappableBasicActivityDecorated"
+            android:label="@string/title_activity_basic_modes"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.DisableDaysActivity"
+            android:label="@string/title_activity_disable"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.CustomizeXmlActivity"
+            android:label="@string/title_activity_customize_xml"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.CustomizeCodeActivity"
+            android:label="@string/title_activity_customize_code"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.DynamicSettersActivity"
+            android:label="@string/title_activity_dynamic_setters"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.CustomTileDimensions"
+            android:label="@string/title_activity_custom_tile_size"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.DialogsActivity"
+            android:label="@string/title_activity_dialogs"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.MultipleViewActivity"
+            android:label="@string/title_activity_multiple_view"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.MultipleSizeActivity"
+            android:label="@string/title_activity_multiple_size"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ptrstovka.calendarview2.sample.FeatureTestActivity"
+            android:label="@string/title_feature_test_activity"
+            android:parentActivityName="com.ptrstovka.calendarview2.sample.MainActivity"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ptrstovka.calendarview2.sample.MainActivity"
+                />
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE"/>
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
